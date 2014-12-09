@@ -1,0 +1,70 @@
+
+html {
+  font-family: 'Open Sans', Tahoma, serif;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0.25em 2em;
+  font-size: 1em;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+aside {
+  width: 22%;
+  float: left;
+  padding: .25em;
+}
+
+.map-container {
+  padding: 25px;
+}
+
+.carousel {
+  width: 75%;
+  float: left;
+}
+
+.carousel img {
+  max-width: 70%;
+  padding: 2em;
+  moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+article {
+  clear: left;
+  border-radius: 5px;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0.25em 2em;
+  font-size: 1em;
+  background-color: blue;
+  border-radius: 5px;
+  moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+}
+
