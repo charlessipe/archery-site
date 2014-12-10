@@ -1,7 +1,14 @@
 
 html {
   font-family: 'Open Sans', Tahoma, serif;
-  box-sizing: border-box;
+  background: url(images/swirl_pattern.png) repeat top right;
+  background-color: blue;
+}
+
+header h2 {
+  position: absolute;
+  top: 10px;
+  right: 40px;  
 }
 
 nav ul li {
@@ -19,6 +26,12 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
+}
+
+body {
+  margin: 2em;
+  padding: 1em;
+  background-color: white;
 }
 
 aside {
